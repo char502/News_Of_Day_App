@@ -1,0 +1,20 @@
+.quoteBody {
+  font-size: 33px !important;
+  color: #ff3333 !important;
+  font-family: "Permanent Marker", cursive;
+}
+
+/*
+use !important To override the default bootstrap methods
+*/
+.quoteAuthor {
+  font-size: 28px !important;
+}
+
+.btn {
+  border-radius: 0px;
+}
+
+.btn:focus {
+  outline: none;
+}
