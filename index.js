@@ -16,5 +16,7 @@ $(document).ready(function () {
         // console.log(quotes[0].title);
 
         console.log(data);
+
+        // 23455w
     })
 });
