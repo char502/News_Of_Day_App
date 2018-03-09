@@ -9,7 +9,7 @@ $(document).ready(function () {
             currentQuote = quotes[Math.floor(Math.random() * quotes.length)]
 
             $('.quoteBody').html(currentQuote.title);
-            $('quoteAuthor').html(currentQuote.author);
+            $('.quoteAuthor').html(currentQuote.author);
             // console.log(currentQuote);
         });
 
