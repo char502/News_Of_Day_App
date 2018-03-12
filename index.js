@@ -7,16 +7,26 @@ $(document).ready(function () {
 
         $('.read').on('click', function () {
             currentQuote = quotes[Math.floor(Math.random() * quotes.length)]
+            console.log(currentQuote);
 
-            $('.quoteBody').html(currentQuote.title);
+            $('.quoteBody').hide();
+            $('.quoteBodyLink').html(currentQuote.title);
+            $('quoteBodyLink').attr('href', currentQuote.url);
+
+
+
+            // html(currentQuote.title);
             $('.quoteAuthor').html(currentQuote.author);
-            // console.log(currentQuote);
+
+            $('.tweetQuote').attr('href', 'https://twitter.com/intent/tweet?text= ' + currentQuote.title + ' - ' + currentQuote.author).attr('target', '_blank').attr('disabled', false);
+
+            $('.read').html('Show me one more');
         });
 
-        // console.log(quotes[0].title);
+        console.log(quotes[0].title);
 
         console.log(data);
 
-        // 23455w
+
     })
 });
