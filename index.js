@@ -6,12 +6,10 @@ $(document).ready(function () {
         var quotes = data.hits;
 
         $('.read').on('click', function () {
-            currentQuote = quotes[Math.floor(Math.random() * quotes.length)]
-            console.log(currentQuote);
-
+            currentQuote = quotes[Math.floor(Math.random() * quotes.length)];
             $('.quoteBody').hide();
             $('.quoteBodyLink').html(currentQuote.title);
-            $('quoteBodyLink').attr('href', currentQuote.url);
+            $('.quoteBodyLink').attr('href', currentQuote.url).attr('target', '_blank');
 
 
 
