@@ -1,0 +1,12 @@
+{
+  "name": "news_of_day_app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "css": "node-sass --watch index.scss > index.css"
+  },
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "node-sass": "^4.7.2"
+  }
+}

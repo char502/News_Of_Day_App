@@ -1,23 +1,66 @@
 .quoteBody {
-  font-size: 33px !important;
+  font-size: 36px;
+  margin: 36px;
   color: #ff3333 !important;
-  font-family: "Permanent Marker", cursive;
-}
+  font-family: "Permanent Marker", cursive; }
 
 /*
 use !important To override the default bootstrap methods
 */
 .quoteAuthor {
-  font-size: 28px !important;
-}
+  font-size: 28px !important; }
 
 .btn {
-  border-radius: 0px;
-}
+  border-radius: 0px; }
 
 .btn:focus {
-  outline: none;
+  outline: none; }
+
+/*
+.tweetQuote {
+  margin-top: 10px;
 }
+*/
+.quoteBody {
+  font-size: 36px;
+  margin: 36px;
+  color: #ff3333 !important;
+  font-family: "Permanent Marker", cursive; }
+
+/*
+use !important To override the default bootstrap methods
+*/
+.quoteAuthor {
+  font-size: 28px !important; }
+
+.btn {
+  border-radius: 0px; }
+
+.btn:focus {
+  outline: none; }
+
+/*
+.tweetQuote {
+  margin-top: 10px;
+}
+*/
+.quoteBody {
+  font-size: 36px;
+  margin: 36px;
+  color: #ff3333 !important;
+  font-family: "Permanent Marker", cursive; }
+
+/*
+use !important To override the default bootstrap methods
+*/
+.quoteAuthor {
+  font-size: 28px !important; }
+
+.btn {
+  border-radius: 0px; }
+
+.btn:focus {
+  outline: none; }
 
 /*
 .tweetQuote {

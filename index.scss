@@ -1,0 +1,30 @@
+@import "buttons";
+
+$text-size: 36px;
+
+.quoteBody {
+  font-size: $text-size;
+  color: #ff3333 !important;
+  font-family: "Permanent Marker", cursive;
+}
+
+/*
+use !important To override the default bootstrap methods
+*/
+.quoteAuthor {
+  font-size: 28px !important;
+}
+
+.btn {
+  border-radius: 0px;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+/*
+.tweetQuote {
+  margin-top: 10px;
+}
+*/
